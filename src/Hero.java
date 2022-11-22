@@ -4,7 +4,8 @@ public class Hero {
     private int heroDamage;             //урон
     private int heroSuperPowers;     // суперспособности
 
-    public int getHeroHealth() {  
+
+    public int getHeroHealth() {
         return heroHealth;
     }
 
@@ -16,13 +17,16 @@ public class Hero {
         return heroSuperPowers;
     }
 
-    public Hero(int health, int damage, int superPowers) {
-
+    public Hero(int heroHealth, int heroDamage, int heroSuperPowers) {
+        this.heroHealth = heroHealth;
+        this.heroDamage = heroDamage;
+        this.heroSuperPowers = heroSuperPowers;
 
     }
 
     public Hero(int heroHealth, int heroDamage) {
-
+        this.heroHealth = heroHealth;
+        this.heroDamage = heroDamage;
     }
 
 
